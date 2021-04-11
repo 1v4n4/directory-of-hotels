@@ -1,0 +1,125 @@
+.foboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.borange {
+  background-color: #d35649;
+}
+
+.forange {
+  color: #d35649;
+}
+
+.bgrey {
+  background-color: rgba(105, 105, 105, 0.688);
+}
+
+.fgrey {
+  color: #333;
+}
+
+.filter {
+  filter: invert(15%) sepia(8%) saturate(16%) hue-rotate(315deg) brightness(99%) contrast(85%);
+}
+
+.header-icon {
+  color: white;
+}
+
+.btn-nostyle {
+  border: none;
+}
+
+.how-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo-txt {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* header */
+
+.logo-div {
+  margin: auto;
+}
+
+.header-list {
+  padding: 10px 25px;
+  margin: auto;
+}
+
+.header-icon {
+  margin: 0 10px;
+}
+
+/* Main */
+/* Search section */
+
+.search-section {
+  background-image: url("https://live.staticflickr.com/57/220270916_d546e6fd11_b.jpg");
+  background-position-x: 55%;
+  height: 650px;
+  background-size: cover;
+}
+
+.main-form {
+  /*height: 30%;*/
+  width: 90%;
+  margin: auto;
+}
+
+legend {
+  font-size: 20px;
+}
+
+input {
+   height: 35px;
+   width: 99%;
+}
+
+label {
+  height: 35px;
+  font-size: 20px;
+  width: 99%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.search-form {
+  margin: auto;
+  padding:20px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+.headline {
+  font-size: 22px;
+}
+
+.how {
+  border-radius: 5px;
+  margin: 230px 0 0 120px;
+  font-size: 19px;
+  height: 35px;
+  padding-bottom: 10px;
+}
+
+/* footer */
+
+
+.last-line {
+  background-color: #333;
+  justify-content: space-between;
+  background-color: rgba(105, 105, 105, 0.888);
+}

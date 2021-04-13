@@ -23,11 +23,11 @@
 }
 
 .fblue {
-  color:rgb(58, 155, 214);
+  color: rgb(58, 155, 214);
 }
 
 .fgrey-light {
-  color:rgba(105, 105, 105, 0.888)
+  color: rgba(105, 105, 105, 0.888);
 }
 
 .filter {
@@ -36,6 +36,7 @@
 
 .header-icon {
   color: white;
+  font-size: 18px;
 }
 
 .btn-nostyle {
@@ -49,6 +50,8 @@
 .how-icon {
   width: 60px;
   height: 60px;
+  display: block;
+  margin: auto;
 }
 
 .logo {
@@ -73,18 +76,13 @@
 }
 
 .logo-div {
-  display:flex;
+  display: flex;
   margin: auto;
 }
 
 .header-list {
   padding: 10px 25px;
   margin: auto;
-
-}
-
-.header-icon {
-  font-size: 18px;
 }
 
 .invinsible {
@@ -93,6 +91,7 @@
 }
 
 /* Main */
+
 /* Search section */
 
 .search-section {
@@ -112,8 +111,8 @@ legend {
 }
 
 input {
-   height: 35px;
-   width: 99%;
+  height: 35px;
+  width: 99%;
 }
 
 label {
@@ -127,7 +126,7 @@ label {
 
 .search-form {
   margin: auto;
-  padding:20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
   border-radius: 10px;
 }
 
@@ -156,11 +155,6 @@ label {
 .how-headline {
   text-align: center;
   font-size: 24px;
-}
-
-.how-icon {
-display: block;
-margin: auto;
 }
 
 /* Circle images section */
@@ -194,10 +188,6 @@ margin: auto;
 .footer-logo {
   display: flex;
   justify-content: space-around;
-}
-
-.footer-link {
-  text-decoration: none;
 }
 
 .last-line {
@@ -241,7 +231,7 @@ a.footer-link:active {
   color: black;
 }
 
-.footer-lg-p>a:hover{
+.footer-lg-p > a:hover {
   color: #333;
   font-weight: bold;
 }
@@ -253,8 +243,7 @@ a.footer-link:active {
 /* Medium screen */
 
 @media (min-width: 768px) {
-
-  /* header */
+  /* Header */
 
   .header-small {
     flex-flow: row;
@@ -265,6 +254,7 @@ a.footer-link:active {
   }
 
   /* Main */
+
   /* Search section */
 
   .main-form {
@@ -308,7 +298,7 @@ a.footer-link:active {
   }
 
   .lbl-btn {
-  background-color: rgb(58, 155, 214);
+    background-color: rgb(58, 155, 214);
   }
 
   .headline {
@@ -399,7 +389,6 @@ a.footer-link:active {
 }
 
 @media (min-width: 1024px) {
-
   .header-icon {
     font-size: 18px;
   }
@@ -430,7 +419,7 @@ a.footer-link:active {
 
   .find-btn {
     display: block;
-    margin: auto;
+    margin: 0;
     width: 50%;
   }
 
@@ -451,17 +440,12 @@ a.footer-link:active {
   .pline {
     text-align: left;
     font-size: 25px;
-
   }
 
   .line-txt-div {
     width: 40%;
     margin-left: 30px;
     margin-top: 30%;
-  }
-
-  .find-btn {
-    margin: 0;
   }
 
   /* Footer */
@@ -487,10 +471,10 @@ a.footer-link:active {
   .ln {
     margin-top: 12px;
   }
-
 }
 
 /* Search page style */
+
 /* Mobile */
 
 .filters-section {
@@ -498,13 +482,17 @@ a.footer-link:active {
   padding: 5%;
 }
 
-
 .filter-h {
   color: #333;
   font-size: 22px;
   font-weight: bolder;
   text-align: center;
   line-height: 25px;
+}
+
+.invisible-option {
+  font-size: 2px;
+  color: white;
 }
 
 .filter-lbl {
@@ -518,11 +506,11 @@ a.footer-link:active {
 
 .filters-inp,
 .filter-slct {
-height: 30px;
-width: 75%;
-border-radius: 5px;
-background-color: white;
-border: 2px solid #333;
+  height: 30px;
+  width: 75%;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #333;
 }
 
 fieldset {
@@ -554,7 +542,7 @@ fieldset {
 .bg-svg {
   display: block;
   background-color: #d35649;
-  }
+}
 
 .bg-img {
   padding: 5%;
@@ -586,7 +574,7 @@ fieldset {
 }
 
 .result-link {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .result-link:hover {
@@ -595,7 +583,6 @@ fieldset {
 }
 
 @media (min-width: 768px) {
-
   .filter-h {
     color: #333;
     font-size: 30px;
@@ -654,7 +641,6 @@ fieldset {
 }
 
 @media (min-width: 1024px) {
-
   .filters-section {
     padding: 2%;
   }
@@ -704,7 +690,7 @@ fieldset {
   .p2-searc-btn {
     height: 30px;
     width: 100%;
-    }
+  }
 
   .reset-btn {
     height: 30px;
@@ -726,6 +712,7 @@ fieldset {
 }
 
 /* Page 3 style */
+
 /* Mobile version */
 
 .rectangle-section {
@@ -756,7 +743,7 @@ fieldset {
 .rectangle-span {
   font-size: 20px;
   line-height: 40px;
-  color: rgb(58, 155, 214)
+  color: rgb(58, 155, 214);
 }
 
 .book-btn {
@@ -796,18 +783,19 @@ fieldset {
   color: #333;
 }
 
-.map-container{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-.map-container iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .map-h {
@@ -818,7 +806,6 @@ fieldset {
 }
 
 @media (min-width: 768px) {
-
   .rectangles-div {
     display: flex;
     flex-wrap: wrap;
@@ -839,6 +826,7 @@ fieldset {
     margin: 2%;
   }
 
-
-
+  .z-depth-1-half {
+    height: 500px;
+  }
 }

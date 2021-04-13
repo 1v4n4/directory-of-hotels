@@ -1,7 +1,7 @@
 # directory-of-hotels
 
 Patashule is a digital platform that enables tourists to search for hotels in Montenegro and choose the one that suits them the best.
-This hotel finder app creates a customized list of hotels generated through the use of search filters such as location, price, review score, stars, beach access, and health and safety measures, that can be digitally accessed by people all over the world.
+This hotel finder app creates a customized list of hotels generated through the use of search filters such as name, location, price, review score, stars and beach access that can be digitally accessed by people all over the world.
 
 
 ![screenshot]()

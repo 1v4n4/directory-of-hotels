@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotels in Montenegro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="foboto container-xl">
+
+  <!-- Header -->
+  <header>
+    <div class="header-small borange p-3">
+      <a href="index.html" class="lnostyle">
+        <div class="logo-div">
+          <img src="imgs/hotel.svg" alt="hotel-icono" class="logo">
+          <span class="text-light logo-txt">inMontenegro</span>
+        </div>
+      </a>
+      <div class="header-list d-flex">
+        <button type="submit" class="btn-nostyle borange invinsible"><i
+            class="header-icon fa fa-search"></i>HOTELS</button>
+        <button type="submit" class="btn-nostyle borange invinsible"><i
+            class="header-icon fa fa-user"></i>ABOUT</button>
+        <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-wifi"></i>BLOG</button>
+        <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-bars"></i>MORE</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+
+  <main>
+    <!-- Search section-->
+    <section class="filters-section mt-5 mb-5">
+      <h1 class="filter-h">Filter by location, price for one night, review score, stars, free wifi, and beach access</h1>
+      <form class="filters-form">
+      <fieldset>
+        <label for="hotel-name" class="filter-lbl">NAME OF THE HOTEL</label>
+        <input type="text" class="filters-inp" name="hotel-name" id="hotel-name">
+      </fieldset>
+      <fieldset>
+        <label for="location" class="filter-lbl">LOCATION</label>
+        <select id="location" name="location" class="filter-slct">
+          <option></option>
+          <option>Ulcinj</option>
+          <option>Kotor</option>
+          <option>Budva</option>
+          <option>Tivat</option>
+          <option>Herceg Novi</option>
+          <option>Murino</option>
+          <option>Rozaje</option>
+          <option>Velje Duboko</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+          <label for="price" class="filter-lbl">PRICE</label>
+          <select id="price" name="price" class="filter-slct">
+            <option></option>
+            <option>Up to 50€</option>
+            <option>50€ to 100€</option>
+            <option>100€ to 200€</option>
+            <option>200€+</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <label for="rating"class="filter-lbl">RATING</label>
+        <select id="rating" name="rating" class="filter-slct">
+          <option></option>
+          <option>Wonderful, 9+</option>
+          <option>Very Good, 8+</option>
+          <option>Good, 7+</option>
+          <option>Pleasant, 6+</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="stars" class="filter-lbl">STARS</label>
+        <select id="stars" name="stars" class="filter-slct">
+          <option></option>
+          <option>5 stars</option>
+          <option>4 stars</option>
+          <option>3 stars</option>
+          <option>2 stars</option>
+          <option>1 stars</option>
+          <option>Unrated</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="beach" class="filter-lbl">BEACH</label>
+        <select id="beach" name="beach" class="filter-slct">
+          <option></option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <button type="button" class="p2-searc-btn text-light"><a href="page3.html" class="lnostyle text-light">Search</a></button>
+      </fieldset>
+      <fieldset>
+        <button type="reset" class="reset-btn text-light">Clear the filters</button>
+      </fieldset>
+
+      </form>
+    </section>
+    <!-- Results section -->
+
+    <section class="results">
+      <h1 class="filter-h">Search results: Found 4 hotels</h1>
+      <div class="card-result-div">
+        <div class="results-card mt-3">
+          <div class="bg-img">
+            <img src="imgs/hotel1.svg" class="bg-svg">
+           </div>
+          <div class="results-absolute">
+            <a href="page3.html" class="result-link">
+              <h2 class="results-h"> Azul Beach Resort Montenegro</h2>
+            </a>
+            <img src="imgs/azul1.jpg" class="result-img" alt="hotel-image">
+          </div>
+        </div>
+
+        <div class="results-card mt-3">
+          <div class="bg-img">
+            <img src="imgs/hotel1.svg" class="bg-svg">
+          </div>
+          <div class="results-absolute">
+            <a href="page3.html" class="result-link">
+              <h2 class="results-h"> Azul Beach Resort Montenegro</h2>
+            </a>
+            <img src="imgs/azul2.jpg" class="result-img" alt="hotel-image">
+          </div>
+        </div>
+
+        <div class="results-card mt-3">
+          <div class="bg-img">
+            <img src="imgs/hotel1.svg" class="bg-svg">
+          </div>
+          <div class="results-absolute">
+            <a href="page3.html" class="result-link">
+              <h2 class="results-h"> Azul Beach Resort Montenegro</h2>
+            </a>
+            <img src="imgs/azul3.jpg" class="result-img" alt="hotel-image">
+          </div>
+        </div>
+
+        <div class="results-card mt-3">
+          <div class="bg-img">
+            <img src="imgs/hotel1.svg" class="bg-svg">
+          </div>
+          <div class="results-absolute">
+            <a href="page3.html" class="result-link">
+              <h2 class="results-h"> Azul Beach Resort Montenegro</h2>
+            </a>
+            <img src="imgs/azul4.jpeg" class="result-img" alt="hotel-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="nav-bar bg-black pb-4 pt-4 mt-3">
+      <div class="footer-circle">
+      </div>
+      <div class="footer-logo">
+        <a href="index.html" class="lnostye"><img src="imgs/hotel.svg" class="logo flogo" alt="hotel-icon"></a>
+      </div>
+      <hr class="border-line">
+      <div class="footer-nav-div">
+        <ul class="list-inline justify-content-center fnav d-flex text-light">
+          <li class="flist-i"><a class="footer-link" href="index.html">HOME</a></li>
+          <li class="flist-i"><a class="footer-link" href="page2.html">SEARCH</a></li>
+          <li class="flist-i"><a class="footer-link" href="#">ABOUT US</a></li>
+          <li class="flist-i"><a class="footer-link" href="#">ADVERTISE</a></li>
+        </ul>
+        <ul class="list-inline justify-content-center fnav d-flex text-light">
+          <li class="flist-i"><a class="footer-link" href="#">FACEBOOK</a></li>
+          <li class="flist-i"><a class="footer-link" href="#">TWITTER</a></li>
+          <li class="flist-i"><a class="footer-link" href="#">BLOG</a></li>
+          <li class="flist-i"><a class="footer-link" href="#">GOOGLE +</a></li>
+        </ul>
+      </div>
+      <hr class="border-line">
+    </div>
+    <div class="footer-lg bg-black">
+      <div class="footer-lg-card text-center">
+        <p class="mb-lg-3"><span class="fspan text-light">SUBSCRIBE</span></p>
+        <input type="text" id="subscribe-inp" class="" placeholder="name@example.com">
+        <label class="subscribe-lbl text-light" for="subscribe-inp">Send</label>
+      </div>
+
+      <div class="footer-lg-card text-center">
+        <p class="mb-lg-3"><span class="fspan text-light">CONTACT</span></p>
+        <p class="footer-lg-p text-light">Have a question or sugestion? <span class="forange">info@inmontenegro.com</span>
+        </p>
+      </div>
+
+      <div class="footer-lg-card text-center">
+        <p class="mb-lg-3"><span class="fspan text-light">ABOUT</span></p>
+        <p class="footer-lg-p text-light">inMontenegro is online platform that assists tourist to find an accomodation of
+          their desire. <a href="#" class="lnostyle forange"> Learn more...</a></p>
+      </div>
+    </div>
+    <div class="last-line d-lg-flex justify-content-lg-evenly text-center">
+      <div class="last-icons list-unstyled justify-content-center fnav d-flex text-light mb-3 pt-3">
+        <li class="last-list-i"><a href="#"><i class="fa fa-facebook last-icon"></i></a></li>
+        <li class="last-list-i"><a href="#"><i class="fa fa-twitter last-icon"></i></a></li>
+        <li class="last-list-i"><a href="#"><i class="fa fa-instagram last-icon"></i></a></li>
+        <li class="last-list-i"><a href="#"><i class="fa fa-bookmark last-icon"></i></a></li>
+        <li class="last-list-i"><a href="#"><i class="fa fa-share last-icon"></i></a></li>
+      </div>
+      <div class="credits">
+        <p class="ln text-light credits-p pb-3">© inMontenegro 2021 # All rights reserved # Made by <a href="https://github.com/1v4n4" class="footer-link">1V4N4</a>, design PATASHULE</p>
+      </div>
+    </div>
+  </footer>
+  </body>
+
+  </html>

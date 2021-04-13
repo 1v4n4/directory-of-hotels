@@ -19,13 +19,13 @@
 
   <!-- Header -->
   <header>
-    <div class="header-small borange p-3">
-      <div class="logo-div">
-      <img src="imgs/hotel.svg" alt="hotel-icono" class="logo">
-      <span class="text-light logo-txt">inMontenegro</span>
-      </div>
+    <div id="home" class="header-small borange p-3">
+        <div class="logo-div">
+        <img src="imgs/hotel.svg" alt="hotel-icono" class="logo">
+        <span class="text-light logo-txt">inMontenegro</span>
+        </div>
       <div class="header-list d-flex">
-      <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-search"></i>HOTELS</button>
+      <button onclick="window.location.href='page2.html'" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-search"></i>HOTELS</button>
       <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-user"></i>ABOUT</button>
       <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-wifi"></i>BLOG</button>
       <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-bars"></i>MORE</button>
@@ -36,7 +36,7 @@
   <!-- Main -->
 
   <main>
-    <section class="search-section text-center pt-3">
+    <section id="search" class="search-section text-center pt-3">
       <div class="main-form pt-sm-3 pt-md-5">
         <h1 class="headline text-light mb-2">inMontenegro... YOUR GATEWAY TO PERFECT VACATION</h1>
         <form class="search-form bgrey">
@@ -45,7 +45,7 @@
           <input type="text" id="search-inp" class="btn-nostyle">
           <br class="d-md-none">
           <br class="d-md-none">
-          <label class="search-lbl  text-light" for="search-inp"><button type="submit" class="lbl-btn btn-nostyle borange text-light">SEARCH</label>
+          <label class="search-lbl  text-light" for="search-inp"><button type="submit" class="lbl-btn btn-nostyle borange text-light"></button><a href="page2.html" class="main-link">SEARCH</a></label>
         </div>
       </form>
     </div>
@@ -84,7 +84,7 @@
         <div class="line-txt-div mt-md-5 pt-4">
           <p class="pline text-light"><span class="line-span">Over 10.000 hotels registered with us!</span></p>
           <p class="pline text-light mt-2">Find a hotel using our filtered search engine</p>
-          <a class="btn bg-light forange mt-3 find-btn" href="#" role="button">Find a hotel</a>
+          <a class="btn bg-light forange mt-3 find-btn" href="page2.html" role="button">Find a hotel</a>
         </div>
         <div class="line-img-div mt-3 pb-3">
           <img class="round-img rounded-circle" src="imgs/ulcinj.jpg" alt="ulcinj">
@@ -94,7 +94,7 @@
         <div id="line-div1" class="line-txt-div mt-md-5 pt-4">
           <p class="pline text-light"><span class="line-span text-md-left">If you are alredy here, use this search engine</span></p>
           <p class="pline text-light mt-2">Just click on the button and you are all set!</p>
-          <a class="btn bg-light fgrey-light mt-3 find-btn" href="#" role="button">Find a hotel near you</a>
+          <a class="btn bg-light fgrey-light mt-3 find-btn" href="page3.html" role="button">Find a hotel near you</a>
         </div>
         <div class="line-img-div mt-3 pb-3">
           <img class="round-img rounded-circle" src="imgs/boka-stoliv.jpg" alt="stoliv">
@@ -116,13 +116,13 @@
       <div class="footer-circle">
       </div>
       <div class="footer-logo">
-        <img src="imgs/hotel.svg" class="logo flogo" alt="hotel-icon">
+        <a href="#home"><img src="imgs/hotel.svg" class="logo flogo" alt="hotel-icon"></a>
       </div>
       <hr class="border-line">
       <div class="footer-nav-div">
         <ul class="list-inline justify-content-center fnav d-flex text-light">
-          <li class="flist-i"><a class="footer-link" href="#">HOME</a></li>
-          <li class="flist-i"><a class="footer-link" href="#">SEARCH</a></li>
+          <li class="flist-i"><a class="footer-link" href="#home">HOME</a></li>
+          <li class="flist-i"><a class="footer-link" href="#search">SEARCH</a></li>
           <li class="flist-i"><a class="footer-link" href="#">ABOUT US</a></li>
           <li class="flist-i"><a class="footer-link" href="#">ADVERTISE</a></li>
         </ul>
@@ -135,7 +135,7 @@
       </div>
       <hr class="border-line">
     </div>
-    <div class="footer-lg d-lg-flex justify-content-lg-evenly bg-black pb-lg-4">
+    <div class="footer-lg bg-black">
       <div class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">SUBSCRIBE</span></p>
         <input type="text" id="subscribe-inp" class="" placeholder="name@example.com">
@@ -149,7 +149,7 @@
 
       <div class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">ABOUT</span></p>
-        <p class="footer-lg-p text-light">inMontenegro is online platform that assists tourist to find an accomodation of their desire. <a href="#" class="link-unstyled forange"> Learn more...</a></p>
+        <p class="footer-lg-p text-light">inMontenegro is online platform that assists tourist to find an accomodation of their desire. <a href="#" class="lnostyle forange"> Learn more...</a></p>
       </div>
     </div>
     <div class="last-line d-lg-flex justify-content-lg-evenly text-center">
@@ -161,7 +161,8 @@
         <li class="last-list-i"><a href="#"><i class="fa fa-share last-icon"></i></a></li>
       </div>
       <div class="credits">
-        <p class="ln text-light credits-p pb-3">© inMontenegro 2021 # All rights reserved # Made by 1V4N4, design PATASHULE</p>
+        <p class="ln text-light credits-p pb-3">© inMontenegro 2021 # All rights reserved # Made by <a
+            href="https://github.com/1v4n4" class="footer-link">1V4N4</a>, design PATASHULE</p>
       </div>
     </div>
   </footer>

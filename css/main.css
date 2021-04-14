@@ -402,11 +402,11 @@ a.footer-link:active {
   }
 
   .search-section {
-  background-image: url("https://live.staticflickr.com/57/220270916_d546e6fd11_b.jpg");
-  background-position-y: 40%;
-  height: 650px;
-  background-size: cover;
-}
+    background-image: url("https://live.staticflickr.com/57/220270916_d546e6fd11_b.jpg");
+    background-position-y: 40%;
+    height: 650px;
+    background-size: cover;
+  }
 
   .lbl-btn {
     background-color: #d35649;

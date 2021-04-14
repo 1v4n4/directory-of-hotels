@@ -1,7 +1,9 @@
 # directory-of-hotels
 
-Patashule is a digital platform that enables tourists to search for hotels in Montenegro and choose the one that suits them the best.
+inMontenegro is a digital platform that enables tourists to search for hotels in Montenegro and choose the one that suits them the best.
 This hotel finder app creates a customized list of hotels generated through the use of search filters such as name, location, price, review score, stars and beach access, that can be digitally accessed by people all over the world.
+If the users find accommodation, they can make a reservation using this platform.
+Three different pages of this website are connected with links and all three are responsive, with two breakpoints, for small and medium screen sizes.
 
 ![screenshot3](https://user-images.githubusercontent.com/65791349/114624295-c4828f80-9cb0-11eb-8e22-cbd4ed481084.png)
 ![screenshot2](https://user-images.githubusercontent.com/65791349/114624298-c5b3bc80-9cb0-11eb-85f2-0f8623898146.png)
@@ -48,6 +50,7 @@ Give a ⭐️ if you like this project!
 
 
 ## Credits
+
 This project is based on design by Mathew Njuguna, Sam Achola and Kevin Mutuaand for Patashule.
 
 ## 📝 License

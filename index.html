@@ -15,16 +15,16 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="foboto container-xl">
+<body class="foboto container-fluid">
 
   <!-- Header -->
   <header>
-    <div id="home" class="header-small borange p-3">
-        <div class="logo-div">
+    <div id="home" class="header-small flex borange p-3">
+        <div class="logo-div flex">
         <img src="imgs/hotel.svg" alt="hotel-icono" class="logo">
         <span class="text-light logo-txt">inMontenegro</span>
         </div>
-      <div class="header-list d-flex">
+      <div class="header-list flex">
       <button type="button" onclick="window.location.href='page2.html'" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-search"></i>HOTELS</button>
       <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-user"></i>ABOUT</button>
       <button type="submit" class="btn-nostyle borange invinsible"><i class="header-icon fa fa-wifi"></i>BLOG</button>
@@ -36,7 +36,7 @@
   <!-- Main -->
 
   <main>
-    <section id="search" class="search-section text-center pt-3">
+    <article id="search" class="search-section text-center pt-3">
       <div class="main-form pt-sm-3 pt-md-5">
         <h1 class="headline text-light mb-2">inMontenegro... YOUR GATEWAY TO PERFECT VACATION</h1>
         <div class="search-form bgrey">
@@ -49,77 +49,79 @@
         </div>
       </div>
     </div>
-    <div class="how-div">
+    <form class="how-div">
       <a class="btn bgrey how" href="#how-it-works" role="button">How it works</a>
-    </div>
-    </section>
-    <section id="how-it-works" class="mt-5 mb-5 how-section">
-      <h2 class="forange how-headline mb-5">PATA SHULE WORKS IN FOUR SIMPLE STEPS</h2>
-      <div class="how-cards-div d-lg-flex flex-lg-wrap justify-content-lg-evenly p-lg-3">
-        <div class="how-card col-lg-6">
-          <img class="how-icon mt-3 mb-3 filter" src="imgs/find.svg" alt="icon">
-          <h3 class="how-headline fgrey">1-SEARCH:</h3>
-          <p class="how-p text-center fgrey mt-3 p-3">It is very easy! You can search the by keywords like location, price, review score, stars, beach access... Alternatively, click on the search button to see a list of all hotels in Montenegro.</p>
+    </form>
+    </article>
+    <article class="container-xl">
+      <section id="how-it-works" class="mt-5 mb-5 how-section">
+        <h2 class="forange how-headline mb-5">PATA SHULE WORKS IN FOUR SIMPLE STEPS</h2>
+        <div class="how-cards-div d-lg-flex flex-lg-wrap justify-content-lg-evenly p-lg-3">
+          <div class="how-card col-lg-6">
+            <img class="how-icon mt-3 mb-3 filter" src="imgs/find.svg" alt="icon">
+            <h3 class="how-headline fgrey">1-SEARCH:</h3>
+            <p class="how-p text-center fgrey mt-3 p-3">It is very easy! You can search the by keywords like location, price, review score, stars, beach access... Alternatively, click on the search button to see a list of all hotels in Montenegro.</p>
+          </div>
+          <div class="how-card col-lg-6">
+            <img class="how-icon  mt-3 mb-3 filter" src="imgs/map.svg" alt="icon">
+            <h3 class="how-headline fgrey">2-LOCATE:</h3>
+            <p class="how-p text-center mt-3 fgrey p-3">Get to see where is hotel located by clicking on its profile. You can get all information and the direction from
+            anywhere.</p>
+          </div>
+          <div class="how-card col-lg-6">
+            <img class="how-icon  mt-3 mb-3 filter" src="imgs/doc.svg" alt="icon">
+            <h3 class="how-headline fgrey">3-BOOK:</h3>
+            <p class="how-p fgrey text-center mt-3 p-3">Make a reservation for a hotel of your choice. Click the booking button to get the application form. We also follow up on the application to make sure you get a confirmation on time.</p>
+          </div>
+          <div class="how-card mt-2 col-lg-6">
+            <img class="how-icon mt-3 mt-3 mb-2 filter" src="imgs/beach.svg" alt="icon">
+            <h3 class="how-headline fgrey">4-RELAX:</h3>
+            <p class="how-p text-center mt-3 fgrey p-3">Once you booked your accomodation, you can take a rest and visit our blog to read about attractions in Montenegro.</p>
+          </div>
         </div>
-        <div class="how-card col-lg-6">
-          <img class="how-icon  mt-3 mb-3 filter" src="imgs/map.svg" alt="icon">
-          <h3 class="how-headline fgrey">2-LOCATE:</h3>
-          <p class="how-p text-center mt-3 fgrey p-3">Get to see where is hotel located by clicking on its profile. You can get all information and the direction from
-          anywhere.</p>
+      </section>
+      <section class="3lines">
+        <div class="line1 borange d-md-flex justify-content-md-between p-2">
+          <div class="line-txt-div mt-md-5 pt-4">
+            <h3 class="text-light line-span">Over 10.000 hotels registered with us!</h3>
+            <p class="pline text-light mt-2">Find a hotel using our filtered search engine</p>
+            <a class="btn bg-light forange mt-3 find-btn" href="page2.html" role="button">Find a hotel</a>
+          </div>
+          <div class="line-img-div mt-3 pb-3">
+            <img class="round-img rounded-circle" src="imgs/ulcinj.jpg" alt="ulcinj">
+          </div>
         </div>
-        <div class="how-card col-lg-6">
-          <img class="how-icon  mt-3 mb-3 filter" src="imgs/doc.svg" alt="icon">
-          <h3 class="how-headline fgrey">3-BOOK:</h3>
-          <p class="how-p fgrey text-center mt-3 p-3">Make a reservation for a hotel of your choice. Click the booking button to get the application form. We also follow up on the application to make sure you get a confirmation on time.</p>
+        <div class="line1 bgrey d-md-flex justify-content-md-between p-2">
+          <div id="line-div1" class="line-txt-div mt-md-5 pt-4">
+            <h3 class="text-light line-span">If you are alredy here, use this search engine</h3>
+            <p class="pline text-light mt-2">Just click on the button and you are all set!</p>
+            <a class="btn bg-light fgrey-light mt-3 find-btn" href="page3.html" role="button">Find a hotel near you</a>
+          </div>
+          <div class="line-img-div mt-3 pb-3">
+            <img class="round-img rounded-circle" src="imgs/boka-stoliv.jpg" alt="stoliv">
+          </div>
         </div>
-        <div class="how-card mt-2 col-lg-6">
-          <img class="how-icon mt-3 mt-3 mb-2 filter" src="imgs/beach.svg" alt="icon">
-          <h3 class="how-headline fgrey">4-RELAX:</h3>
-          <p class="how-p text-center mt-3 fgrey p-3">Once you booked your accomodation, you can take a rest and visit our blog to read about attractions in Montenegro.</p>
+        <div class="line1 bblue d-md-flex justify-content-md-between p-2">
+          <div class="line-txt-div pt-4 mt-md-5">
+            <h3 class="text-light line-span">Any time, anywhere, anyway</h3>
+            <p class="pline text-light mt-2">Platform inMontenegro is perfect for all devices including a mobile app in your app store</p>
+          </div>
+          <div class="line-img-div mt-3 pb-3">
+            <img class="round-img rounded-circle" src="imgs/tivat.jpg" alt="tivat">
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="3lines">
-      <div class="line1 borange d-md-flex justify-content-md-between p-2">
-        <div class="line-txt-div mt-md-5 pt-4">
-          <h3 class="text-light line-span">Over 10.000 hotels registered with us!</h3>
-          <p class="pline text-light mt-2">Find a hotel using our filtered search engine</p>
-          <a class="btn bg-light forange mt-3 find-btn" href="page2.html" role="button">Find a hotel</a>
-        </div>
-        <div class="line-img-div mt-3 pb-3">
-          <img class="round-img rounded-circle" src="imgs/ulcinj.jpg" alt="ulcinj">
-        </div>
-      </div>
-      <div class="line1 bgrey d-md-flex justify-content-md-between p-2">
-        <div id="line-div1" class="line-txt-div mt-md-5 pt-4">
-          <h3 class="text-light line-span">If you are alredy here, use this search engine</h3>
-          <p class="pline text-light mt-2">Just click on the button and you are all set!</p>
-          <a class="btn bg-light fgrey-light mt-3 find-btn" href="page3.html" role="button">Find a hotel near you</a>
-        </div>
-        <div class="line-img-div mt-3 pb-3">
-          <img class="round-img rounded-circle" src="imgs/boka-stoliv.jpg" alt="stoliv">
-        </div>
-      </div>
-      <div class="line1 bblue d-md-flex justify-content-md-between p-2">
-        <div class="line-txt-div pt-4 mt-md-5">
-          <h3 class="text-light line-span">Any time, anywhere, anyway</h3>
-          <p class="pline text-light mt-2">Platform inMontenegro is perfect for all devices including a mobile app in your app store</p>
-        </div>
-        <div class="line-img-div mt-3 pb-3">
-          <img class="round-img rounded-circle" src="imgs/tivat.jpg" alt="tivat">
-        </div>
-      </div>
-    </section>
+      </section>
+    </article>
   </main>
   <footer>
-    <div class="nav-bar bg-black pb-4 pt-4">
+    <article class="nav-bar bg-black pb-4 pt-4">
       <div class="footer-circle">
       </div>
-      <div class="footer-logo">
+      <div class="footer-logo flex">
         <a href="#home"><img src="imgs/hotel.svg" class="logo flogo" alt="hotel-icon"></a>
       </div>
       <hr class="border-line">
-      <div class="footer-nav-div">
+      <section class="footer-nav-div">
         <ul class="list-inline justify-content-center fnav d-flex text-light">
           <li class="flist-i"><a class="footer-link lnostyle" href="#home">HOME</a></li>
           <li class="flist-i"><a class="footer-link lnostyle" href="#search">SEARCH</a></li>
@@ -132,27 +134,27 @@
           <li class="flist-i"><a class="footer-link lnostyle" href="#">BLOG</a></li>
           <li class="flist-i"><a class="footer-link lnostyle" href="#">GOOGLE +</a></li>
         </ul>
-      </div>
+      </section>
       <hr class="border-line">
-    </div>
-    <div class="footer-lg bg-black">
-      <div class="footer-lg-card text-center">
+    </article>
+    <article class="footer-lg bg-black">
+      <section class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">SUBSCRIBE</span></p>
         <input type="text" id="subscribe-inp" class="" placeholder="name@example.com">
         <label class="subscribe-lbl text-light" for="subscribe-inp">Send</label>
-      </div>
+      </section>
 
-      <div class="footer-lg-card text-center">
+      <section class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">CONTACT</span></p>
         <p class="footer-lg-p text-light">Have a question or sugestion? <span class="forange">info@inmontenegro.com</span></p>
-      </div>
+      </section>
 
-      <div class="footer-lg-card text-center">
+      <section class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">ABOUT</span></p>
         <p class="footer-lg-p text-light">inMontenegro is online platform that assists tourist to find an accomodation of their desire. <a href="#" class="lnostyle forange"> Learn more...</a></p>
-      </div>
-    </div>
-    <div class="last-line d-lg-flex justify-content-lg-evenly text-center">
+      </section>
+    </article>
+    <article class="last-line d-lg-flex justify-content-lg-evenly text-center">
       <ul class="last-icons list-unstyled justify-content-center fnav d-flex text-light mb-3 pt-3">
         <li class="last-list-i"><a href="#"><i class="fa fa-facebook last-icon"></i></a></li>
         <li class="last-list-i"><a href="#"><i class="fa fa-twitter last-icon"></i></a></li>
@@ -160,11 +162,11 @@
         <li class="last-list-i"><a href="#"><i class="fa fa-bookmark last-icon"></i></a></li>
         <li class="last-list-i"><a href="#"><i class="fa fa-share last-icon"></i></a></li>
       </ul>
-      <div class="credits">
+      <section class="credits">
         <p class="ln text-light credits-p pb-3">© inMontenegro 2021 # All rights reserved # Made by <a
             href="https://github.com/1v4n4" class="footer-link lnostyle">1V4N4</a>, design PATASHULE</p>
-      </div>
-    </div>
+      </section>
+    </article>
   </footer>
 </body>
 </html>

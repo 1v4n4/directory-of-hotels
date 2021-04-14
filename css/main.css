@@ -2,6 +2,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+
 .borange {
   background-color: #d35649;
 }
@@ -71,12 +75,10 @@
 /* header */
 
 .header-small {
-  display: flex;
-  flex-flow: column;
+  flex-direction: column;
 }
 
 .logo-div {
-  display: flex;
   margin: auto;
 }
 
@@ -187,7 +189,6 @@ label {
 /* footer */
 
 .footer-logo {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -247,7 +248,7 @@ a.footer-link:active {
   /* Header */
 
   .header-small {
-    flex-flow: row;
+    flex-direction: row;
   }
 
   .header-icon {
@@ -399,6 +400,13 @@ a.footer-link:active {
     font-size: 18px;
     color: white;
   }
+
+  .search-section {
+  background-image: url("https://live.staticflickr.com/57/220270916_d546e6fd11_b.jpg");
+  background-position-y: 40%;
+  height: 650px;
+  background-size: cover;
+}
 
   .lbl-btn {
     background-color: #d35649;

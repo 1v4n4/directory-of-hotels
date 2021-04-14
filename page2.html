@@ -16,18 +16,18 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="foboto container-xl">
+<body class="foboto container-fluid">
 
   <!-- Header -->
   <header>
-    <div class="header-small borange p-3">
+    <div class="header-small flex borange p-3">
       <a href="index.html" class="lnostyle">
-        <div class="logo-div">
+        <div class="logo-div flex">
           <img src="imgs/hotel.svg" alt="hotel-icono" class="logo">
           <span class="text-light logo-txt">inMontenegro</span>
         </div>
       </a>
-      <div class="header-list d-flex">
+      <div class="header-list flex">
         <button type="submit" class="btn-nostyle borange invinsible"><i
             class="header-icon fa fa-search"></i>HOTELS</button>
         <button type="submit" class="btn-nostyle borange invinsible"><i
@@ -42,7 +42,7 @@
 
   <main>
     <!-- Search section-->
-    <section class="filters-section mt-5 mb-5">
+    <article class="filters-section mt-5 mb-5">
       <h1 class="filter-h">Filter by location, price for one night, review score, stars, free wifi, and beach access</h1>
       <form class="filters-form">
       <fieldset>
@@ -114,12 +114,12 @@
       </fieldset>
 
       </form>
-    </section>
+    </article>
     <!-- Results section -->
 
-    <section class="results">
+    <article class="results">
       <h1 class="filter-h">Search results: Found 4 hotels</h1>
-      <div class="card-result-div">
+      <section class="card-result-div">
         <div class="results-card mt-3">
           <div class="bg-img">
             <img src="imgs/hotel1.svg" class="bg-svg" alt="hotel-logo">
@@ -167,20 +167,20 @@
             <img src="imgs/azul4.jpeg" class="result-img" alt="hotel-image">
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </article>
 
   </main>
   <!-- Footer -->
   <footer>
-    <div class="nav-bar bg-black pb-4 pt-4 mt-3">
+    <article class="nav-bar bg-black pb-4 pt-4 mt-3">
       <div class="footer-circle">
       </div>
-      <div class="footer-logo">
+      <div class="footer-logo flex">
         <a href="index.html" class="lnostye"><img src="imgs/hotel.svg" class="logo flogo" alt="hotel-icon"></a>
       </div>
       <hr class="border-line">
-      <div class="footer-nav-div">
+      <section class="footer-nav-div">
         <ul class="list-inline justify-content-center fnav d-flex text-light">
           <li class="flist-i"><a class="footer-link lnostyle" href="index.html">HOME</a></li>
           <li class="flist-i"><a class="footer-link lnostyle" href="page2.html">SEARCH</a></li>
@@ -193,29 +193,29 @@
           <li class="flist-i"><a class="footer-link lnostyle" href="#">BLOG</a></li>
           <li class="flist-i"><a class="footer-link lnostyle" href="#">GOOGLE +</a></li>
         </ul>
-      </div>
+      </section>
       <hr class="border-line">
-    </div>
-    <div class="footer-lg bg-black">
-      <div class="footer-lg-card text-center">
+    </article>
+    <article class="footer-lg bg-black">
+      <section class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">SUBSCRIBE</span></p>
         <input type="text" id="subscribe-inp" class="" placeholder="name@example.com">
         <label class="subscribe-lbl text-light" for="subscribe-inp">Send</label>
-      </div>
+      </section>
 
-      <div class="footer-lg-card text-center">
+      <section class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">CONTACT</span></p>
         <p class="footer-lg-p text-light">Have a question or sugestion? <span class="forange">info@inmontenegro.com</span>
         </p>
-      </div>
+      </section>
 
-      <div class="footer-lg-card text-center">
+      <section class="footer-lg-card text-center">
         <p class="mb-lg-3"><span class="fspan text-light">ABOUT</span></p>
         <p class="footer-lg-p text-light">inMontenegro is online platform that assists tourist to find an accomodation of
           their desire. <a href="#" class="lnostyle forange"> Learn more...</a></p>
-      </div>
-    </div>
-    <div class="last-line d-lg-flex justify-content-lg-evenly text-center">
+      </section>
+    </article>
+    <article class="last-line d-lg-flex justify-content-lg-evenly text-center">
       <ul class="last-icons list-unstyled justify-content-center fnav d-flex text-light mb-3 pt-3">
         <li class="last-list-i"><a href="#"><i class="fa fa-facebook last-icon"></i></a></li>
         <li class="last-list-i"><a href="#"><i class="fa fa-twitter last-icon"></i></a></li>
@@ -226,7 +226,7 @@
       <div class="credits">
         <p class="ln text-light credits-p pb-3">© inMontenegro 2021 # All rights reserved # Made by <a href="https://github.com/1v4n4" class="footer-link lnostyle">1V4N4</a>, design PATASHULE</p>
       </div>
-    </div>
+    </article>
   </footer>
   </body>
 

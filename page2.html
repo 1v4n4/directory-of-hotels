@@ -46,13 +46,13 @@
       <h1 class="filter-h">Filter by location, price for one night, review score, stars, free wifi, and beach access</h1>
       <form class="filters-form">
       <fieldset>
-        <label for="hotel-name" class="filter-lbl">NAME OF THE HOTEL</label>
+        <label for="hotel-name" class="filter-lbl">HOTEL'S NAME</label>
         <input type="text" class="filters-inp" name="hotel-name" id="hotel-name">
       </fieldset>
       <fieldset>
         <label for="location" class="filter-lbl">LOCATION</label>
         <select id="location" name="location" class="filter-slct">
-          <option><i class="fa fa-mars text-light"></i></option>
+          <option label=" "> </option>
           <option>Ulcinj</option>
           <option>Kotor</option>
           <option>Budva</option>
@@ -67,7 +67,7 @@
       <fieldset>
           <label for="price" class="filter-lbl">PRICE</label>
           <select id="price" name="price" class="filter-slct">
-            <option><i class="fa fa-mars text-light"></i></option>
+            <option label=" "> </option>
             <option>Up to 50€</option>
             <option>50€ to 100€</option>
             <option>100€ to 200€</option>
@@ -77,7 +77,7 @@
       <fieldset>
         <label for="rating" class="filter-lbl">RATING</label>
         <select id="rating" name="rating" class="filter-slct">
-          <option><i class="fa fa-mars text-light"></i></option>
+          <option label=" "> </option>
           <option>Wonderful, 9+</option>
           <option>Very Good, 8+</option>
           <option>Good, 7+</option>
@@ -87,7 +87,7 @@
       <fieldset>
         <label for="stars" class="filter-lbl">STARS</label>
         <select id="stars" name="stars" class="filter-slct">
-          <option><i class="fa fa-mars text-light"></i></option>
+          <option label=" "> </option>
           <option>5 stars</option>
           <option>4 stars</option>
           <option>3 stars</option>
@@ -99,16 +99,18 @@
       <fieldset>
         <label for="beach" class="filter-lbl">BEACH</label>
         <select id="beach" name="beach" class="filter-slct">
-          <option><i class="fa fa-mars text-light"></i></option>
+          <option label=" "> </option>
           <option>Yes</option>
           <option>No</option>
         </select>
       </fieldset>
       <fieldset>
-        <a href="page3.html" class="lnostyle text-light"><button type="button" class="p2-searc-btn text-light">Search</button></a>
+        <div class="fake-btn">
+          <a href="page3.html" class="lnostyle text-light fake-btn-lbl">Search</a>
+        </div>
       </fieldset>
       <fieldset>
-        <button type="reset" class="reset-btn text-light">Clear the filters</button>
+        <button type="reset" class="reset-btn text-light">Clear filters</button>
       </fieldset>
 
       </form>
@@ -132,7 +134,7 @@
 
         <div class="results-card mt-3">
           <div class="bg-img">
-            <img src="imgs/hotel1.svg" class="bg-svg">
+            <img src="imgs/hotel1.svg" class="bg-svg" alt="hotel-logo">
           </div>
           <div class="results-absolute">
             <a href="page3.html" class="result-link">

@@ -106,7 +106,7 @@
   margin: auto;
 }
 
-legend {
+h4 {
   font-size: 20px;
 }
 
@@ -177,6 +177,7 @@ label {
   font-size: 19px;
   font-weight: 900;
   line-height: 22px;
+  text-align: center;
 }
 
 .pline {
@@ -325,6 +326,7 @@ a.footer-link:active {
     font-size: 19px;
     font-weight: 900;
     line-height: 22px;
+    text-align: left;
   }
 
   .pline {
@@ -498,7 +500,6 @@ a.footer-link:active {
 .filter-lbl {
   height: 30px;
   font-size: 20px;
-  width: 80%;
   text-align: left;
   padding-bottom: 5px;
   background-color: #d3d3d3;
@@ -523,6 +524,21 @@ fieldset {
   background-color: rgb(58, 155, 214);
   border: 1px solid rgb(58, 155, 214);
   border-radius: 5px;
+}
+
+.fake-btn {
+  height: 30px;
+  width: 40%;
+  background-color: rgb(58, 155, 214);
+  border: 1px solid rgb(58, 155, 214);
+  border-radius: 5px;
+  position: relative;
+}
+
+.fake-btn-lbl {
+  position: absolute;
+  top: 5px;
+  left: 35%;
 }
 
 .reset-btn {
@@ -593,7 +609,8 @@ fieldset {
   .filter-lbl {
     height: 40px;
     font-weight: bolder;
-    margin-left: 15%;
+    text-align: center;
+    width: 100%;
   }
 
   .filters-inp,
@@ -612,6 +629,18 @@ fieldset {
     width: 40%;
     display: block;
     margin: auto;
+  }
+
+  .fake-btn {
+    height: 40px;
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
+
+  .fake-btn-lbl {
+    left: 40%;
+    top: 8px;
   }
 
   .reset-btn {
@@ -653,7 +682,7 @@ fieldset {
 
   .filter-h {
     color: #333;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 700;
     margin-top: 4%;
   }
@@ -669,16 +698,14 @@ fieldset {
   fieldset {
     margin-right: 10px;
     padding-bottom: 5%;
+    width: 14%;
   }
 
   .filter-lbl {
     height: 30px;
     font-size: 15px;
     font-weight: 500;
-    width: 100%;
-    text-align: left;
     padding-bottom: 5px;
-    margin-left: 0;
   }
 
   .filters-inp,
@@ -687,9 +714,17 @@ fieldset {
     width: 100%;
   }
 
-  .p2-searc-btn {
+  .fake-btn {
     height: 30px;
     width: 100%;
+  }
+
+  .fake-btn-lbl {
+    left: 30%;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    height: 13px;
   }
 
   .reset-btn {
@@ -796,6 +831,7 @@ fieldset {
   height: 100%;
   width: 100%;
   position: absolute;
+  border: 0;
 }
 
 .map-h {
@@ -818,7 +854,7 @@ fieldset {
 
   .icons3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin-top: 3%;
   }
 

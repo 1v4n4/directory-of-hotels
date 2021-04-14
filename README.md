@@ -21,12 +21,12 @@ HTML, CSS and Bootstrap
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
-### Prerequisites
 ### Setup
+Download this GitHub Repo and go the index.html file.
 ### Install
+Set up liveserver as an extension in your VS Code.
 ### Usage
-### Deployment
-
+Right click and open the index.html in your browser to view
 
 ## Author
 

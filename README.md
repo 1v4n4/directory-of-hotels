@@ -36,7 +36,7 @@ Right click and open the index.html in your browser to view
 
 - GitHub: [@githubhandle](https://github.com/1v4n4)
 - Twitter: [@twitterhandle](https://twitter.com/codeIv1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivana-novakovic-lekovic/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/1v4n4)
 
 ## 🤝 Contributing
 
